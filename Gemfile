@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.10'
+gem 'jekyll', '~> 4.3'
 gem 'bibtex-ruby', '~> 6.1'
 gem 'jekyll-scholar', '~> 7.0'
 
