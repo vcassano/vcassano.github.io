@@ -6,4 +6,5 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jemoji'
     gem 'unicode_utils'
+    gem 'bibtex-ruby', '~> 6.1'
 end
