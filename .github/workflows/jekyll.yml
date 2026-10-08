@@ -20,7 +20,9 @@ jobs:
           bundler-cache: true
       - uses: actions/configure-pages@v5
       - name: Fetch publications from DBLP
-        run: curl -o _bibliography/papers.bib "https://dblp.org/pid/140/7429.bib"
+        run: |
+          mkdir -p _bibliography
+          curl -f -o _bibliography/papers.bib "https://dblp.org/pid/140/7429.bib"
       - run: bundle exec jekyll build --baseurl ""
         env:
           JEKYLL_ENV: production
