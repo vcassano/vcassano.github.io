@@ -8,6 +8,7 @@ eng_pdf: english.pdf
 eng_date: 2022-06-01
 spa_pdf: spanish.pdf
 spa_date: 2023-05-08
+ignore: true # set to false to display
 ---
 
 <p class="post-title">

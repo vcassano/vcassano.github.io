@@ -3,7 +3,7 @@ layout: page
 title: teaching
 permalink: /teaching/
 order: 4
-ignore: true
+ignore: true # set to false to display
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 ---
